@@ -1,0 +1,15 @@
+*
+!index.html
+!README.md
+!LICENSE.txt
+!.gitignore
+!plugin
+!plugin/markdown
+!plugin/markdown/*
+!.github/
+!.github/workflows
+!.github/workflows/main.yml
+!dist/
+!dist/*
+!dist/theme/*
+!dist/theme/fonts*
