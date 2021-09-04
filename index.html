@@ -3,38 +3,73 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>Prezentace o scammech na internetu</title>
+		<title>Prezentace o podvodech na Internetu</title>
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
+        <style>
+            :root {
+                --r-heading1-size: 1.8em;
+                --r-heading2-size: 1.5em;
+            }
+        </style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section data-markdown>
-                    ## Rozcestník prezentací
+                    # Podvody (nejen) na Internetu
+                    ![prezscam.ahlava.cz](assets/qr.png)
+
                     [prezentace@adamhlavacek.com](mailto:prezentace@adamhlavacek.com)
+                </section>
+                <section>
+                    <section data-markdown>
+                        ## Mail
+                    </section>
+                    <section data-markdown>
+                        
+                    </section>
                 </section>
 				<section>
                     <section data-markdown>
-                        ### Prezentace o webové bezpečnosti
-                        *HTTPS, WiFi, SSL-strip, hesla, anonymita a physing*
-                        - [Přehrát](https://websec.adamhlavacek.com/prezentace/)
-                        - [GitHub](https://github.com/esoadamo/PrezentaceWeboveBezpecnosti/)
+                        ## Youtube
                     </section>
                     <section>
-                        <a class="autolink" href="https://websec.adamhlavacek.com/prezentace/">Klikni zde</a>
+
                     </section>
                 </section>
                 <section>
                     <section data-markdown>
-                        ### Začínáme s Linuxem
-                        *Jaké jsou změny, výhody, tiskárny a hry*
-                        - [Přehrát](https://zacinameslinuxem.adamhlavacek.com/)
-                        - [GitHub](https://github.com/esoadamo/PrezentaceZacinameSLinuxem/)
+                        ## DDL, softnic, sourceforge atp.
                     </section>
                     <section>
-                        <a class="autolink" href="https://zacinameslinuxem.adamhlavacek.com/">Klikni zde</a>
+
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown>
+                        ## Obrana
+                    </section>
+                    <section>
+                        - správce hesel
+                        - haweibeenpwned
+                    </section>
+                </section>
+                <section>
+                    <section data-markdown>
+                        ## Soukromí
+                    </section>
+                    <section>
+                        ### DNS
+
+                        - DoH
+                    </section>
+                    <section>
+                        ### Přesměrování emailu
+                        - plus
+                        - duck
+                        - mozzila
                     </section>
                 </section>
 			</div>
@@ -47,16 +82,9 @@
                 controls: true,
                 controlsTutorial: true,
 				hash: true,
-                progress: false,
+                progress: true,
 				plugins: [ RevealMarkdown ]
 			});
-            Reveal.on('slidechanged', (event) => {
-                const {currentSlide} = event;
-                const autolink = currentSlide.querySelector('.autolink');
-                if (autolink) {
-                    window.location = autolink.getAttribute('href');
-                }
-            });
 		</script>
 	</body>
 </html>

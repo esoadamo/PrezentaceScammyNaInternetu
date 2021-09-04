@@ -1,4 +1,4 @@
-# Rozcestník prezentací
+# Prezentace o podvodech na Internetu
 
 [Nasazeno zde](https://prezscam.adamhlavacek.com)
 
