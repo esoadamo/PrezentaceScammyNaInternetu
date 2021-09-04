@@ -18,7 +18,7 @@
                 height: 75vh;
             }
 
-            img, video {
+            img, video, .code {
                 border: 2px solid #93a1a1;
                 border-radius: 4px;
             }
@@ -26,6 +26,12 @@
             video {
                 width: 75vw;
                 height: 75vh;
+            }
+
+            .code {
+                font-size: 0.7em;
+                background: #2b2b2b;
+                color: #2aa198;
             }
         </style>
 	</head>
@@ -204,8 +210,31 @@
                     <section data-markdown>
                         ## Mail
                     </section>
-                    <section data-markdown>
-
+                    <section>
+                        <img src="assets/phishing-mail.png" alt="Scam Seznamka" style="max-height: 70vh">
+                    </section>
+                    <section>
+                        <img src="assets/scam-mast.png" alt="Scam o průniku do systému" style="max-height: 70vh">
+                    </section>
+                    <section>
+                        <div style="display: flex; align-items: center">
+                            <img src="assets/paypal-mail-head.jpeg" alt="Scam Paypal Header">
+                            <img src="assets/paypal-mail-content.jpeg" alt="Scam Paypal Header" style="max-height: 70vh">
+                        </div>
+                    </section>
+                    <section>
+                        <img src="assets/paypal-webpage.jpeg" alt="Scam Paypal Web" style="max-height: 70vh">
+                    </section>
+                    <section>
+                        <img src="assets/scam-microsoft.jpg" alt="Scam Microsoft" style="max-height: 70vh">
+                    </section>
+                    <section>
+                        <div class="code">
+                            <code>
+                                echo "Tohle neni podvod" | mail -r "duveryhodny@example.com" -s "Vyhra 10M$" prezentace@adamhlavacek.com
+                            </code>
+                        </div>
+                        <img src="assets/phis_my_mail.png" alt="Příchozí vlastní phissing mail">
                     </section>
                 </section>
 
